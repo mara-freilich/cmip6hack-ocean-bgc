@@ -1,20 +1,20 @@
 {
   "esmcat_version": "0.1.0",
   "id": "pangeo-cmip6",
-  "description": "This is an ESM collection for CMIP6 Zarr data residing in Pangeo's Google Storage.",
-  "catalog_file": "https://storage.googleapis.com/pangeo-cmip6/pangeo-cmip6-zarr-consolidated-stores.csv",
+  "description": "This is an ESM collection for CMIP6 Zarr data residing in Pangeo's Google Storage. NO QC USE AT OWN RISK!",
+  "catalog_file": "https://cmip6.storage.googleapis.com/cmip6-zarr-consolidated-stores-noQC.csv",
   "attributes": [
     {
       "column_name": "activity_id",
       "vocabulary": "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/master/CMIP6_activity_id.json"
     },
     {
-      "column_name": "source_id",
-      "vocabulary": "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/master/CMIP6_source_id.json"
-    },
-    {
       "column_name": "institution_id",
       "vocabulary": "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/master/CMIP6_institution_id.json"
+    },  
+    {
+      "column_name": "source_id",
+      "vocabulary": "https://raw.githubusercontent.com/WCRP-CMIP/CMIP6_CVs/master/CMIP6_source_id.json"
     },
     {
       "column_name": "experiment_id",
@@ -35,7 +35,15 @@
       "vocabulary": ""
     },
     {
-      "column_name": "dcpp_start_year",
+      "column_name": "dcpp_init_year",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "status",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "issue_url",
       "vocabulary": ""
     }
   ],
