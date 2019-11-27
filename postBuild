@@ -2,7 +2,7 @@
 
 set -xeo pipefail
 
-source activate CMIP6-201910
+source activate notebook
 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              @pyviz/jupyterlab_pyviz \
