@@ -1,22 +1,16 @@
-[![Build Status](https://travis-ci.org/jbusecke/cmip6_preprocessing.svg?branch=master)](https://travis-ci.org/jbusecke/cmip6_preprocessing)
-[![codecov](https://codecov.io/gh/jbusecke/cmip6_preprocessing/branch/master/graph/badge.svg)](https://codecov.io/gh/jbusecke/cmip6_preprocessing)
+
 [![License:MIT](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flt-square)](https://opensource.org/licenses/MIT)
 
-# cmip6_preprocessing
+# Ocean biogeochemistry team
 
-Frustrated with how 'dirty' CMIP6 data still is? Do you just want to run a simple (or complicated) analysis on various models and end up having to write logic for each seperate case? Then this package is for you.
+## Questions:
+This project will examine historical simulations and future projections of ocean carbon and heat uptake and storage in the CMIP6 ensemble, and explore their impacts on marine ecosystems drivers, with a focus on primary productivity. Hacking will explore:
 
-Developed during the [cmip6-hackathon](https://cmip6hack.github.io/#/) this package provides utility functions that play nicely with [intake-esm](https://github.com/NCAR/intake-esm).
+ 
+1. How do models simulate carbon and heat uptake compared to available observations? What are future projections under different ssp’s? what regions dominate carbon and heat uptake vs. storage? What are differences across models (uptake rates, regional differences, etc.) and what processes might explain these differences?
 
-We currently support the following functions
+2. How well do models simulate the mean distribution and long-term trends of ecosystem drivers (SST, pH/aragonite saturation depth, [O2]/hypoxic depth, NPP) compared to available observations? Can we identify persistent or new biases since CMIP5? What are CMIP6 projections for marine ecosystem drivers in a warming climate? What are spatial characteristics, timescales of emergence, and differences across models? Is there a relationship between models’ carbon and heat uptake efficiency and the severity of their projected impacts on these ecosystem drivers? How did increased climate sensitivity since CMIP5 in certain models (e.g. CESM2) influence these impacts in these models?
 
-1. Fix inconsistent naming of dimensions and coordinates
-2. Fix inconsistent values,shape and dataset location of coordinates
-3. Homogenize longitude conventions
-4. Fix inconsistent units
+3. Projections of NPP especially showcase major differences across CMIP5 models in sign and amplitude over important ocean regions (Eastern/central tropical Pacific, Subpolar gyres, etc. Fig 5. Bopp et al 2013). Does this spread still exist in CMIP6? Do projected changes in carbon export at depth mirror the changes in NPP? What physical and biogeochemical processes explain NPP and carbon export changes across regions and models (e.g. changes in easterlies, upwelling, nutrient transport by the EUC or the overturning circulation, stratification and ventilation, remineralization rates, etc.)?
 
-The following issues are under development:
-1. Reconstruct/find grid metrics
-2. Arrange different variables on their respective staggered grid, so they can work seamlessly with [xgcm](https://xgcm.readthedocs.io/en/latest/)
-
-Please check out the [tutorial](notebooks/tutorial.ipynb) for some examples using the [pangeo cloud](ocean.pangeo.io).
+We will prioritize developing efficient workflows for loading, analysis, and plotting of model outputs and comparison to observations, and aim for process-based examination of model projections, inter-model differences, and model biases.
