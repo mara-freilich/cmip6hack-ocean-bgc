@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - pandas
-  - intake-esm
+  - intake
   - cf-units
   - dask
   - distributed
@@ -17,5 +17,6 @@ dependencies:
   #
   - pip
   - pip:
+    - git+https://github.com/NCAR/intake-esm.git
     - git+https://github.com/pydata/xarray.git
     - git+https://github.com/jbusecke/cmip6_preprocessing.git
