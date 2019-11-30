@@ -1,0 +1,21 @@
+name: cmip6hack-ocean-bgc
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - intake-esm
+  - cf-units
+  - dask
+  - distributed
+  - numpy
+  - scipy
+  - matplotlib
+  - cartopy
+  - cmocean
+  - zarr
+  - nc-time-axis
+  #
+  - pip
+  - pip:
+    - git+https://github.com/pydata/xarray.git
+    - git+https://github.com/jbusecke/cmip6_preprocessing.git
