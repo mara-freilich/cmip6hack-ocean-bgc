@@ -1,5 +1,5 @@
 [![nbviewer:results](https://img.shields.io/badge/nbviewer-results-blue)](https://nbviewer.jupyter.org/github/mfreilich1/cmip6hack-ocean-bgc/blob/master/notebooks/final_analysis.ipynb)
-[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/mfreilich1/cmip6hack-ocean-bgc/master?filepath=notebooks%2final_analysis.ipynb)
+[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/mfreilich1/cmip6hack-ocean-bgc/master?filepath=notebooks%2Ffinal_analysis.ipynb)
 [![License:MIT](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flt-square)](https://opensource.org/licenses/MIT)
 
 # Ocean biogeochemistry team
