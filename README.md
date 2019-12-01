@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3559209.svg)](https://doi.org/10.5281/zenodo.3559209)
 [![License:MIT](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flt-square)](https://opensource.org/licenses/MIT)
 
-# Ocean biogeochemistry team
+# CMIP6 Ocean Biogeochemistry
 
 ## Introduction:
 This project examines historical simulations and future projections of ocean carbon uptake and storage in the CMIP6 ensemble, and explore their impacts on marine ecosystems drivers, with a focus on primary productivity. We have chosen to showcase some of the results that focus on air-sea fluxes of carbon as well as the spatial structure of ocean oxygen content. This analysis can be seen in the python notebook titled 'final_analysis'. Other analyses that were not prepared for presentation are in the notebooks in the 'raw' folder.
