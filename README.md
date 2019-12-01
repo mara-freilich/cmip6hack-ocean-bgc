@@ -5,9 +5,10 @@
 
 # Ocean biogeochemistry team
 
-## Questions:
+## Introduction:
 This project examines historical simulations and future projections of ocean carbon uptake and storage in the CMIP6 ensemble, and explore their impacts on marine ecosystems drivers, with a focus on primary productivity. We have chosen to showcase some of the results that focus on air-sea fluxes of carbon as well as the spatial structure of ocean oxygen content. This analysis can be seen in the python notebook titled 'final_analysis'. Other analyses that were not prepared for presentation are in the notebooks in the 'raw' folder.
 
+## Questions:
 Overall, the hacking explored:
 
 1. How do models simulate carbon and heat uptake compared to available observations? What are future projections under different ssp’s? what regions dominate carbon and heat uptake vs. storage? What are differences across models (uptake rates, regional differences, etc.) and what processes might explain these differences?
