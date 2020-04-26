@@ -1,8 +1,8 @@
 ---
 name: CMIP6 Ocean Biogeochemistry
 description: >-
-  This project examines historical simulations and future projections 
-  of ocean carbon uptake and storage in the CMIP6 ensemble, and explore 
+  This project examines historical simulations and future projections
+  of ocean carbon uptake and storage in the CMIP6 ensemble, and explore
   their impacts on marine ecosystems drivers, with a focus on primary productivity.
 gallery_repository: pangeo-gallery/pangeo-gallery
 binder_url: "https://aws-uswest2-binder.pangeo.io"
